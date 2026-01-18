@@ -1,0 +1,52 @@
+{
+  "name": "screen-highlighter",
+  "version": "1.0.0",
+  "description": "Mac 屏幕炫彩选框高亮工具 - 教学标注神器",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder --mac",
+    "build:dmg": "electron-builder --mac dmg"
+  },
+  "author": "Teacher Helper",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^28.0.0",
+    "electron-builder": "^24.9.1"
+  },
+  "build": {
+    "appId": "com.teacher.screen-highlighter",
+    "productName": "屏幕选框高亮",
+    "mac": {
+      "category": "public.app-category.education",
+      "target": [
+        "dmg",
+        "zip"
+      ],
+      "icon": "icon.icns"
+    },
+    "dmg": {
+      "title": "屏幕选框高亮",
+      "contents": [
+        {
+          "x": 130,
+          "y": 220
+        },
+        {
+          "x": 410,
+          "y": 220,
+          "type": "link",
+          "path": "/Applications"
+        }
+      ]
+    },
+    "files": [
+      "main.js",
+      "preload.js",
+      "renderer.js",
+      "index.html",
+      "styles.css",
+      "config.json"
+    ]
+  }
+}
