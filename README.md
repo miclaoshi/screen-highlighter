@@ -22,7 +22,7 @@
 
 1. [通过 release 下载 dmg 包](https://github.com/miclaoshi/screen-highlighter/releases)
 2. 将应用拖拽到 Applications 文件夹
-3. 打开 Launchpad，点击「屏幕选框高亮」启动
+3. Command + ` 快捷键切换画图
 
 ### 方式二：开发模式
 
