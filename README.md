@@ -20,7 +20,7 @@
 
 ### 方式一：DMG 安装包（推荐）
 
-1. 双击打开 `dist/屏幕选框高亮-1.0.0-arm64.dmg`
+1. [通过 release 下载 dmg 包](https://github.com/miclaoshi/screen-highlighter/releases)
 2. 将应用拖拽到 Applications 文件夹
 3. 打开 Launchpad，点击「屏幕选框高亮」启动
 
